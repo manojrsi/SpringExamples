@@ -1,0 +1,19 @@
+ts: 2017-07-05 11:11:26,089 | logLevel: INFO  | appId:  | thread: () | SID:  | TN:  | clientIp:  | username:  | apiType:  | api:  | platform:  | eventType: NONE | message: Node Server Port: 4000
+ts: 2017-07-05 11:12:18,382 | logLevel: INFO  | appId:  | thread: () | SID:  | TN:  | clientIp:  | username:  | apiType:  | api:  | platform:  | eventType: NONE | message: path values : getRule,01e30d56-00a3-4219-928a-9fdd69340c8c,3cff85d0-50f8-48fb-a9c5-7849d1773ca6
+ts: 2017-07-05 11:12:18,390 | logLevel: INFO  | appId:  | thread: () | SID:  | TN:  | clientIp:  | username:  | apiType:  | api:  | platform:  | eventType: NONE | message: End of method
+ts: 2017-07-05 11:12:18,417 | logLevel: INFO  | appId:  | thread: () | SID:  | TN:  | clientIp:  | username:  | apiType:  | api:  | platform:  | eventType: NONE | message: Parrelel execution result: {"resultCode":"ACN_200","resultDescription":"OK","executionTime":17,"resultObj":{"rules":[{"ruleId":"01e30d56-00a3-4219-928a-9fdd69340c8c","ruleName":"ContentOutOfHome","ruleType":"ContentOutOfHome","streamLimit":3}]}},{"resultCode":"ACN_200","resultDescription":"OK","executionTime":14,"resultObj":{"rules":[{"ruleId":"3cff85d0-50f8-48fb-a9c5-7849d1773ca6","ruleName":"Content","ruleType":"Content","streamLimit":1}]}}
+ts: 2017-07-05 11:13:33,927 | logLevel: INFO  | appId:  | thread: () | SID:  | TN:  | clientIp:  | username:  | apiType:  | api:  | platform:  | eventType: NONE | message: path values : getRule,01e30d56-00a3-4219-928a-9fdd69340c8c,3cff85d0-50f8-48fb-a9c5-7849d1773ca6,2
+ts: 2017-07-05 11:13:33,928 | logLevel: INFO  | appId:  | thread: () | SID:  | TN:  | clientIp:  | username:  | apiType:  | api:  | platform:  | eventType: NONE | message: End of method
+ts: 2017-07-05 11:13:33,939 | logLevel: INFO  | appId:  | thread: () | SID:  | TN:  | clientIp:  | username:  | apiType:  | api:  | platform:  | eventType: NONE | message: Parrelel execution result: {"resultCode":"ACN_200","resultDescription":"OK","executionTime":6,"resultObj":{"rules":[{"ruleId":"01e30d56-00a3-4219-928a-9fdd69340c8c","ruleName":"ContentOutOfHome","ruleType":"ContentOutOfHome","streamLimit":3}]}},{"resultCode":"ACN_3502","resultDescription":"Rule does not exist","executionTime":1}
+ts: 2017-07-05 11:36:50,148 | logLevel: INFO  | appId:  | thread: () | SID:  | TN:  | clientIp:  | username:  | apiType:  | api:  | platform:  | eventType: NONE | message: Node Server Port: 4000
+ts: 2017-07-05 11:36:50,151 | logLevel: ERROR | appId:  | thread: () | SID:  | TN:  | clientIp:  | username:  | apiType:  | api:  | platform:  | eventType: EXCEPTION | errorType: Unexpected Error | Exception:  | message: listen EADDRINUSE :::4000 | stacktrace: Error: listen EADDRINUSE :::4000
+    at Object.exports._errnoException (util.js:1034:11)
+    at exports._exceptionWithHostPort (util.js:1057:20)
+    at Server._listen2 (net.js:1270:14)
+    at listen (net.js:1306:10)
+    at Server.listen (net.js:1397:7)
+    at Function.listen (D:\BACK UP OLD SYSTEM DATA\NodeJSWorkSpace\MicroService WorkSpace\node-concurrent-ms\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:\BACK UP OLD SYSTEM DATA\NodeJSWorkSpace\MicroService WorkSpace\node-concurrent-ms\app.js:31:5)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)

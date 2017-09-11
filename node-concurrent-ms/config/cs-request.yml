@@ -1,0 +1,32 @@
+request:
+  log: 
+    path: "logs/server.log"
+    level: "info"
+  reqdata: 
+  - requestname: getRule
+    executiontype: "parallel"
+    urls:  
+    - port: 9090
+      host: "10.0.140.23"
+      url: "/avsbe-concurrentstream-ms/rest/b2b/rules/{1}?name={name}"
+      method: "get"
+      #intercept: validateRequest
+     # headers: 
+     #   content-type : application-json
+     #   content-type : intercept[token]
+    - port: 9090
+      host: "10.0.140.23"
+      url: "/avsbe-concurrentstream-ms/rest/b2b/rules/{2}"
+      method: "get"  
+      
+   # - port: 9090
+   #   host: "10.0.140.23"
+   #   url: "/avsbe-concurrentstream-ms/rest/b2b/rules/{3}"
+   #   method: "get"  
+      
+   # - port: 9090
+   #   host: "10.0.140.23"
+   #   url: "/avsbe-concurrentstream-ms/rest/b2b/rules/{4}"
+   #   method: "get"  
+      #request with params
+      #http://localhost:4000/getRule/3cff85d0-50f8-48fb-a9c5-7849d1773ca6/01e30d56-00a3-4219-928a-9fdd69340c8c/c89915f4-8dfa-418f-9b2e-a15b73d34a8e/812aa30f-e70c-4b1f-91b7-ea0d96667150

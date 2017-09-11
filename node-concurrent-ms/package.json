@@ -1,0 +1,17 @@
+{
+  "name": "concurrent-ms",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "async": "*",
+    "avs-commons-logging-nodejs": "file:avs-commons-logging-nodejs.tar",
+    "express": "^4.15.3",
+    "jade": "*",
+    "js-yaml": "*",
+    "node-watch": "^0.5.5",
+    "strformat": "0.0.7"
+  }
+}
