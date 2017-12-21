@@ -1,0 +1,107 @@
+STATUS | wrapper  | 2017/12/11 17:55:48 | --> Wrapper Started as Console
+STATUS | wrapper  | 2017/12/11 17:55:48 | Launching a JVM...
+INFO   | jvm 1    | 2017/12/11 17:55:49 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2017/12/11 17:55:49 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2017/12/11 17:55:49 | 
+INFO   | jvm 1    | 2017/12/11 17:55:49 | 
+INFO   | jvm 1    | 2017/12/11 17:55:49 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2017/12/11 17:55:49 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2017/12/11 17:55:49 |           could not be loaded:
+INFO   | jvm 1    | 2017/12/11 17:55:49 |             D:\Software\Active MQ\apache-activemq-5.15.2-bin\apache-activemq-5.15.2\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2017/12/11 17:55:49 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2017/12/11 17:55:49 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2017/12/11 17:55:49 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2017/12/11 17:55:49 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2017/12/11 17:55:49 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2017/12/11 17:55:49 |           Reported cause:
+INFO   | jvm 1    | 2017/12/11 17:55:49 |             D:\Software\Active MQ\apache-activemq-5.15.2-bin\apache-activemq-5.15.2\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2017/12/11 17:55:49 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2017/12/11 17:55:49 | 
+INFO   | jvm 1    | 2017/12/11 17:55:49 | Java Runtime: Oracle Corporation 1.8.0_131 C:\Program Files (x86)\Java\jre1.8.0_131
+INFO   | jvm 1    | 2017/12/11 17:55:49 |   Heap sizes: current=15872k  free=13548k  max=1013632k
+INFO   | jvm 1    | 2017/12/11 17:55:49 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=728NX4xbPmtm9Cx2 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=4804 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2017/12/11 17:55:49 | Extensions classpath:
+INFO   | jvm 1    | 2017/12/11 17:55:49 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2017/12/11 17:55:49 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2017/12/11 17:55:49 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2017/12/11 17:55:49 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2017/12/11 17:55:49 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2017/12/11 17:55:49 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2017/12/11 17:55:49 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@c3f939: startup date [Mon Dec 11 17:55:49 IST 2017]; root of context hierarchy
+INFO   | jvm 1    | 2017/12/11 17:55:50 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Software\Active MQ\apache-activemq-5.15.2-bin\apache-activemq-5.15.2\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2017/12/11 17:55:51 |  INFO | PListStore:[D:\Software\Active MQ\apache-activemq-5.15.2-bin\apache-activemq-5.15.2\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2017/12/11 17:55:51 |  INFO | Apache ActiveMQ 5.15.2 (localhost, ID:dev-c1gf-manoj-62530-1512995151420-0:1) is starting
+INFO   | jvm 1    | 2017/12/11 17:55:51 |  INFO | Listening for connections at: tcp://dev-c1gf-manoj:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2017/12/11 17:55:51 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2017/12/11 17:55:51 |  INFO | Listening for connections at: amqp://dev-c1gf-manoj:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2017/12/11 17:55:51 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2017/12/11 17:55:51 |  INFO | Listening for connections at: stomp://dev-c1gf-manoj:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2017/12/11 17:55:51 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2017/12/11 17:55:51 |  INFO | Listening for connections at: mqtt://dev-c1gf-manoj:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2017/12/11 17:55:51 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2017/12/11 17:55:51 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@1ba130{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2017/12/11 17:55:51 |  INFO | Listening for connections at ws://dev-c1gf-manoj:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2017/12/11 17:55:51 |  INFO | Connector ws started
+INFO   | jvm 1    | 2017/12/11 17:55:51 |  INFO | Apache ActiveMQ 5.15.2 (localhost, ID:dev-c1gf-manoj-62530-1512995151420-0:1) started
+INFO   | jvm 1    | 2017/12/11 17:55:51 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2017/12/11 17:55:52 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2017/12/11 17:55:52 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2017/12/11 17:55:52 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2017/12/11 17:55:52 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2017/12/11 17:55:52 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2017/12/11 17:55:52 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+ERROR  | wrapper  | 2017/12/14 20:08:07 | JVM did not exit on request, terminated
+FATAL  | wrapper  | 2017/12/14 20:08:08 | Critical error: wait for JVM process failed
+STATUS | wrapper  | 2017/12/21 15:00:53 | --> Wrapper Started as Console
+STATUS | wrapper  | 2017/12/21 15:00:53 | Launching a JVM...
+INFO   | jvm 1    | 2017/12/21 15:00:56 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2017/12/21 15:00:56 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2017/12/21 15:00:56 | 
+INFO   | jvm 1    | 2017/12/21 15:00:56 | 
+INFO   | jvm 1    | 2017/12/21 15:00:56 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2017/12/21 15:00:56 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2017/12/21 15:00:56 |           could not be loaded:
+INFO   | jvm 1    | 2017/12/21 15:00:56 |             D:\Software\Active MQ\apache-activemq-5.15.2-bin\apache-activemq-5.15.2\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2017/12/21 15:00:56 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2017/12/21 15:00:56 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2017/12/21 15:00:56 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2017/12/21 15:00:56 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2017/12/21 15:00:56 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2017/12/21 15:00:56 |           Reported cause:
+INFO   | jvm 1    | 2017/12/21 15:00:56 |             D:\Software\Active MQ\apache-activemq-5.15.2-bin\apache-activemq-5.15.2\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2017/12/21 15:00:56 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2017/12/21 15:00:56 | 
+INFO   | jvm 1    | 2017/12/21 15:00:56 | Java Runtime: Oracle Corporation 1.8.0_131 C:\Program Files (x86)\Java\jre1.8.0_131
+INFO   | jvm 1    | 2017/12/21 15:00:56 |   Heap sizes: current=15872k  free=13620k  max=1013632k
+INFO   | jvm 1    | 2017/12/21 15:00:56 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=R6IExBjK6ocYUuSP -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=15448 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2017/12/21 15:00:56 | Extensions classpath:
+INFO   | jvm 1    | 2017/12/21 15:00:56 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2017/12/21 15:00:56 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2017/12/21 15:00:56 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2017/12/21 15:00:56 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2017/12/21 15:00:56 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2017/12/21 15:01:00 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2017/12/21 15:01:00 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@c3f939: startup date [Thu Dec 21 15:01:00 IST 2017]; root of context hierarchy
+INFO   | jvm 1    | 2017/12/21 15:01:01 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Software\Active MQ\apache-activemq-5.15.2-bin\apache-activemq-5.15.2\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2017/12/21 15:01:01 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2017/12/21 15:01:01 |  INFO | PListStore:[D:\Software\Active MQ\apache-activemq-5.15.2-bin\apache-activemq-5.15.2\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2017/12/21 15:01:02 |  INFO | Apache ActiveMQ 5.15.2 (localhost, ID:dev-c1gf-manoj-64044-1513848661938-0:1) is starting
+INFO   | jvm 1    | 2017/12/21 15:01:02 |  INFO | Listening for connections at: tcp://dev-c1gf-manoj:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2017/12/21 15:01:02 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2017/12/21 15:01:02 |  INFO | Listening for connections at: amqp://dev-c1gf-manoj:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2017/12/21 15:01:02 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2017/12/21 15:01:02 |  INFO | Listening for connections at: stomp://dev-c1gf-manoj:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2017/12/21 15:01:02 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2017/12/21 15:01:02 |  INFO | Listening for connections at: mqtt://dev-c1gf-manoj:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2017/12/21 15:01:02 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2017/12/21 15:01:02 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@977046{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2017/12/21 15:01:02 |  INFO | Listening for connections at ws://dev-c1gf-manoj:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2017/12/21 15:01:02 |  INFO | Connector ws started
+INFO   | jvm 1    | 2017/12/21 15:01:02 |  INFO | Apache ActiveMQ 5.15.2 (localhost, ID:dev-c1gf-manoj-64044-1513848661938-0:1) started
+INFO   | jvm 1    | 2017/12/21 15:01:02 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2017/12/21 15:01:02 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2017/12/21 15:01:03 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2017/12/21 15:01:03 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2017/12/21 15:01:03 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2017/12/21 15:01:03 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2017/12/21 15:01:03 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml

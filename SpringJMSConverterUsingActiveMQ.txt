@@ -1,0 +1,2 @@
+Please refer below link for more details
+ http://javasampleapproach.com/spring-framework/spring-jms/activemq-create-springboot-activemq-response-management-application-sendto-annotation

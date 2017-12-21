@@ -1,0 +1,5 @@
+com\javasampleapproach\activemq\model\Product.class
+com\javasampleapproach\activemq\config\ActiveMqConnectionFactoryConfig.class
+com\javasampleapproach\activemq\jms\consumer\JmsReplyConsumer.class
+com\javasampleapproach\activemq\SpringActiveMqSendToApplication.class
+com\javasampleapproach\activemq\model\Company.class

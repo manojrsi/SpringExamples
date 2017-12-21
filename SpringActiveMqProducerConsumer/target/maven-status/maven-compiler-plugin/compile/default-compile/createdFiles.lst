@@ -1,0 +1,7 @@
+com\javasampleapproach\activemq\jms\consumer\JmsConsumer.class
+com\javasampleapproach\activemq\SpringActiveMqProducerConsumerApplication.class
+com\javasampleapproach\activemq\model\Company.class
+com\javasampleapproach\activemq\model\Product.class
+com\javasampleapproach\activemq\config\ActiveMqConnectionFactoryConfig.class
+com\javasampleapproach\activemq\jms\producer\JmsProducer$1.class
+com\javasampleapproach\activemq\jms\producer\JmsProducer.class
